@@ -63,4 +63,11 @@ extension CardVCTests {
         XCTAssertTrue(viewControllerUnderTest.responds(to: #selector(viewControllerUnderTest.tableView(_:numberOfRowsInSection:))))
         XCTAssertTrue(viewControllerUnderTest.responds(to: #selector(viewControllerUnderTest.tableView(_:cellForRowAt:))))
     }
+    
+    func testTableViewCellHasReuseIdentifier() {
+        let cell = viewControllerUnderTest.tableView(viewControllerUnderTest.tableView, cellForRowAt: IndexPath(row: 0, section: 0))
+        let actualReuseIdentifer = cell.reuseIdentifier
+        let expectedReuseIdentifier = "CardCell"
+        XCTAssertEqual(actualReuseIdentifer, expectedReuseIdentifier)
+    }
 }
