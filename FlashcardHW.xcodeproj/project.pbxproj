@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80619664EE248A88E6262BE /* Pods_FlashcardHWTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A079FF7326F21BEE6D8DB0 /* Pods_FlashcardHWTests.framework */; };
 		C4AA90A020322D0500F3206E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA909F20322D0500F3206E /* AppDelegate.swift */; };
 		C4AA90A220322D0500F3206E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA90A120322D0500F3206E /* ViewController.swift */; };
 		C4AA90A520322D0500F3206E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AA90A320322D0500F3206E /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 		C4AA90C420322D5F00F3206E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA90C320322D5F00F3206E /* View.swift */; };
 		C4AA90C720322D7400F3206E /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA90C620322D7400F3206E /* Services.swift */; };
 		C4AA90CA20322D8E00F3206E /* Supporting Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA90C920322D8E00F3206E /* Supporting Files.swift */; };
+		F0F394EEB336ED7B2A64E154 /* Pods_FlashcardHW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C140670A0BA74FCCE8521D96 /* Pods_FlashcardHW.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12DE22143F20C7D7E6C1EE3C /* Pods-FlashcardHWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashcardHWTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlashcardHWTests/Pods-FlashcardHWTests.debug.xcconfig"; sourceTree = "<group>"; };
+		166694F59102C6D69DD3D174 /* Pods-FlashcardHW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashcardHW.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlashcardHW/Pods-FlashcardHW.debug.xcconfig"; sourceTree = "<group>"; };
+		6F5D74877724A9665A486715 /* Pods-FlashcardHWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashcardHWTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlashcardHWTests/Pods-FlashcardHWTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3D6AE4A25BC958732F01408 /* Pods-FlashcardHW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashcardHW.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlashcardHW/Pods-FlashcardHW.release.xcconfig"; sourceTree = "<group>"; };
+		B9A079FF7326F21BEE6D8DB0 /* Pods_FlashcardHWTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashcardHWTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C140670A0BA74FCCE8521D96 /* Pods_FlashcardHW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashcardHW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AA909C20322D0500F3206E /* FlashcardHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashcardHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AA909F20322D0500F3206E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4AA90A120322D0500F3206E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F394EEB336ED7B2A64E154 /* Pods_FlashcardHW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,18 +67,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A80619664EE248A88E6262BE /* Pods_FlashcardHWTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EAF05A95106A6CBED4A128E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C140670A0BA74FCCE8521D96 /* Pods_FlashcardHW.framework */,
+				B9A079FF7326F21BEE6D8DB0 /* Pods_FlashcardHWTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC37CFC725DB0CDD0E543C18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				166694F59102C6D69DD3D174 /* Pods-FlashcardHW.debug.xcconfig */,
+				B3D6AE4A25BC958732F01408 /* Pods-FlashcardHW.release.xcconfig */,
+				12DE22143F20C7D7E6C1EE3C /* Pods-FlashcardHWTests.debug.xcconfig */,
+				6F5D74877724A9665A486715 /* Pods-FlashcardHWTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C4AA909320322D0500F3206E = {
 			isa = PBXGroup;
 			children = (
 				C4AA909E20322D0500F3206E /* FlashcardHW */,
 				C4AA90B320322D0500F3206E /* FlashcardHWTests */,
 				C4AA909D20322D0500F3206E /* Products */,
+				BC37CFC725DB0CDD0E543C18 /* Pods */,
+				3EAF05A95106A6CBED4A128E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4AA90B920322D0500F3206E /* Build configuration list for PBXNativeTarget "FlashcardHW" */;
 			buildPhases = (
+				554A241D03232165B8996231 /* [CP] Check Pods Manifest.lock */,
 				C4AA909820322D0500F3206E /* Sources */,
 				C4AA909920322D0500F3206E /* Frameworks */,
 				C4AA909A20322D0500F3206E /* Resources */,
+				6E080B05E31C47D7C68E40BC /* [CP] Embed Pods Frameworks */,
+				C390F2661E7F35B69FD99C40 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4AA90BC20322D0500F3206E /* Build configuration list for PBXNativeTarget "FlashcardHWTests" */;
 			buildPhases = (
+				5FA3CFFBDC4C81790FA1C448 /* [CP] Check Pods Manifest.lock */,
 				C4AA90AC20322D0500F3206E /* Sources */,
 				C4AA90AD20322D0500F3206E /* Frameworks */,
 				C4AA90AE20322D0500F3206E /* Resources */,
+				302315D9BF21783196A7804B /* [CP] Embed Pods Frameworks */,
+				D500C9EBC78F14ED2BAED653 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +283,124 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		302315D9BF21783196A7804B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlashcardHWTests/Pods-FlashcardHWTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		554A241D03232165B8996231 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlashcardHW-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FA3CFFBDC4C81790FA1C448 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlashcardHWTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E080B05E31C47D7C68E40BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FlashcardHW/Pods-FlashcardHW-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AZTabBar/AZTabBar.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyNotificationBadge/EasyNotificationBadge.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AZTabBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyNotificationBadge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlashcardHW/Pods-FlashcardHW-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C390F2661E7F35B69FD99C40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlashcardHW/Pods-FlashcardHW-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D500C9EBC78F14ED2BAED653 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlashcardHWTests/Pods-FlashcardHWTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4AA909820322D0500F3206E /* Sources */ = {
@@ -407,6 +563,7 @@
 		};
 		C4AA90BA20322D0500F3206E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166694F59102C6D69DD3D174 /* Pods-FlashcardHW.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -422,6 +579,7 @@
 		};
 		C4AA90BB20322D0500F3206E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D6AE4A25BC958732F01408 /* Pods-FlashcardHW.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -437,6 +595,7 @@
 		};
 		C4AA90BD20322D0500F3206E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12DE22143F20C7D7E6C1EE3C /* Pods-FlashcardHWTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +613,7 @@
 		};
 		C4AA90BE20322D0500F3206E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5D74877724A9665A486715 /* Pods-FlashcardHWTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
