@@ -7,15 +7,27 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        if let loggedInUser = Auth.auth().currentUser {
+            print(loggedInUser.email, loggedInUser.displayName, loggedInUser.photoURL)
+            window?.rootViewController = CustomTabBarVC()
+        } else {
+            window?.rootViewController = LoginVC()
+        }
+        
+        window?.makeKeyAndVisible()
         return true
     }
 

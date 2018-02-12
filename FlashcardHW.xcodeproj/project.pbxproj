@@ -8,16 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		A80619664EE248A88E6262BE /* Pods_FlashcardHWTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A079FF7326F21BEE6D8DB0 /* Pods_FlashcardHWTests.framework */; };
+		C42AD3C72032334B000DDF23 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3C42032334A000DDF23 /* SignUpVC.swift */; };
+		C42AD3C82032334B000DDF23 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3C52032334A000DDF23 /* LoginVC.swift */; };
+		C42AD3C92032334B000DDF23 /* CustomTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3C62032334B000DDF23 /* CustomTabBarVC.swift */; };
+		C42AD3CB20323353000DDF23 /* Stylesheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3CA20323353000DDF23 /* Stylesheet.swift */; };
+		C42AD3D220323465000DDF23 /* AZTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3CD20323465000DDF23 /* AZTabBarButton.swift */; };
+		C42AD3D320323465000DDF23 /* AZTabBarButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3CE20323465000DDF23 /* AZTabBarButtonDelegate.swift */; };
+		C42AD3D420323465000DDF23 /* AZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3CF20323465000DDF23 /* AZTabBarController.swift */; };
+		C42AD3D520323465000DDF23 /* AZTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42AD3D020323465000DDF23 /* AZTabBarController.xib */; };
+		C42AD3D620323465000DDF23 /* AZTabBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3D120323465000DDF23 /* AZTabBarDelegate.swift */; };
+		C42AD3D9203235BA000DDF23 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3D7203235BA000DDF23 /* LoginView.swift */; };
+		C42AD3DA203235BA000DDF23 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3D8203235BA000DDF23 /* SignUpView.swift */; };
+		C42AD3DC20323609000DDF23 /* CallToActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3DB20323609000DDF23 /* CallToActionView.swift */; };
+		C42AD3DE20323626000DDF23 /* ViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3DD20323626000DDF23 /* ViewFactory.swift */; };
+		C42AD3E320323660000DDF23 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3DF20323660000DDF23 /* LogoView.swift */; };
+		C42AD3E420323660000DDF23 /* LogInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3E120323660000DDF23 /* LogInButton.swift */; };
+		C42AD3E520323660000DDF23 /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3E220323660000DDF23 /* SignUpButton.swift */; };
+		C42AD3E7203236B7000DDF23 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3E6203236B7000DDF23 /* UIColor+Hex.swift */; };
+		C42AD3E92032397E000DDF23 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C42AD3E82032397E000DDF23 /* GoogleService-Info.plist */; };
+		C42AD3FD20323D0B000DDF23 /* StorageService+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3F220323D0A000DDF23 /* StorageService+Image.swift */; };
+		C42AD3FE20323D0B000DDF23 /* AuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3F420323D0A000DDF23 /* AuthClient.swift */; };
+		C42AD3FF20323D0B000DDF23 /* AuthDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3F520323D0A000DDF23 /* AuthDelegate.swift */; };
+		C42AD40020323D0B000DDF23 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3F620323D0A000DDF23 /* Router.swift */; };
+		C42AD40120323D0B000DDF23 /* DBService+Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3F820323D0A000DDF23 /* DBService+Comment.swift */; };
+		C42AD40220323D0B000DDF23 /* DBService+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3F920323D0A000DDF23 /* DBService+Post.swift */; };
+		C42AD40320323D0B000DDF23 /* DBService+User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3FA20323D0A000DDF23 /* DBService+User.swift */; };
+		C42AD40420323D0B000DDF23 /* DBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3FB20323D0A000DDF23 /* DBService.swift */; };
+		C42AD40520323D0B000DDF23 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42AD3FC20323D0B000DDF23 /* StorageService.swift */; };
 		C4AA90A020322D0500F3206E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA909F20322D0500F3206E /* AppDelegate.swift */; };
-		C4AA90A220322D0500F3206E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA90A120322D0500F3206E /* ViewController.swift */; };
 		C4AA90A520322D0500F3206E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AA90A320322D0500F3206E /* Main.storyboard */; };
 		C4AA90A720322D0500F3206E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AA90A620322D0500F3206E /* Assets.xcassets */; };
 		C4AA90AA20322D0500F3206E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AA90A820322D0500F3206E /* LaunchScreen.storyboard */; };
 		C4AA90B520322D0500F3206E /* FlashcardHWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA90B420322D0500F3206E /* FlashcardHWTests.swift */; };
 		C4AA90C120322D2D00F3206E /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA90C020322D2D00F3206E /* Flashcard.swift */; };
-		C4AA90C420322D5F00F3206E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA90C320322D5F00F3206E /* View.swift */; };
-		C4AA90C720322D7400F3206E /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA90C620322D7400F3206E /* Services.swift */; };
-		C4AA90CA20322D8E00F3206E /* Supporting Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA90C920322D8E00F3206E /* Supporting Files.swift */; };
 		F0F394EEB336ED7B2A64E154 /* Pods_FlashcardHW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C140670A0BA74FCCE8521D96 /* Pods_FlashcardHW.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,9 +61,35 @@
 		B3D6AE4A25BC958732F01408 /* Pods-FlashcardHW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashcardHW.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlashcardHW/Pods-FlashcardHW.release.xcconfig"; sourceTree = "<group>"; };
 		B9A079FF7326F21BEE6D8DB0 /* Pods_FlashcardHWTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashcardHWTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C140670A0BA74FCCE8521D96 /* Pods_FlashcardHW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlashcardHW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42AD3C42032334A000DDF23 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		C42AD3C52032334A000DDF23 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C42AD3C62032334B000DDF23 /* CustomTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarVC.swift; sourceTree = "<group>"; };
+		C42AD3CA20323353000DDF23 /* Stylesheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stylesheet.swift; sourceTree = "<group>"; };
+		C42AD3CD20323465000DDF23 /* AZTabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZTabBarButton.swift; sourceTree = "<group>"; };
+		C42AD3CE20323465000DDF23 /* AZTabBarButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZTabBarButtonDelegate.swift; sourceTree = "<group>"; };
+		C42AD3CF20323465000DDF23 /* AZTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZTabBarController.swift; sourceTree = "<group>"; };
+		C42AD3D020323465000DDF23 /* AZTabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AZTabBarController.xib; sourceTree = "<group>"; };
+		C42AD3D120323465000DDF23 /* AZTabBarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZTabBarDelegate.swift; sourceTree = "<group>"; };
+		C42AD3D7203235BA000DDF23 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = "../../../../Group Projects/trenddit/trenddit/Views/LoginView.swift"; sourceTree = "<group>"; };
+		C42AD3D8203235BA000DDF23 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpView.swift; path = "../../../../Group Projects/trenddit/trenddit/Views/SignUpView.swift"; sourceTree = "<group>"; };
+		C42AD3DB20323609000DDF23 /* CallToActionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallToActionView.swift; sourceTree = "<group>"; };
+		C42AD3DD20323626000DDF23 /* ViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewFactory.swift; sourceTree = "<group>"; };
+		C42AD3DF20323660000DDF23 /* LogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		C42AD3E120323660000DDF23 /* LogInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInButton.swift; sourceTree = "<group>"; };
+		C42AD3E220323660000DDF23 /* SignUpButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
+		C42AD3E6203236B7000DDF23 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		C42AD3E82032397E000DDF23 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C42AD3F220323D0A000DDF23 /* StorageService+Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StorageService+Image.swift"; sourceTree = "<group>"; };
+		C42AD3F420323D0A000DDF23 /* AuthClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthClient.swift; sourceTree = "<group>"; };
+		C42AD3F520323D0A000DDF23 /* AuthDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthDelegate.swift; sourceTree = "<group>"; };
+		C42AD3F620323D0A000DDF23 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		C42AD3F820323D0A000DDF23 /* DBService+Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DBService+Comment.swift"; sourceTree = "<group>"; };
+		C42AD3F920323D0A000DDF23 /* DBService+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DBService+Post.swift"; sourceTree = "<group>"; };
+		C42AD3FA20323D0A000DDF23 /* DBService+User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DBService+User.swift"; sourceTree = "<group>"; };
+		C42AD3FB20323D0A000DDF23 /* DBService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBService.swift; sourceTree = "<group>"; };
+		C42AD3FC20323D0B000DDF23 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		C4AA909C20322D0500F3206E /* FlashcardHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashcardHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AA909F20322D0500F3206E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4AA90A120322D0500F3206E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4AA90A420322D0500F3206E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4AA90A620322D0500F3206E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4AA90A920322D0500F3206E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,9 +98,6 @@
 		C4AA90B420322D0500F3206E /* FlashcardHWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardHWTests.swift; sourceTree = "<group>"; };
 		C4AA90B620322D0500F3206E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4AA90C020322D2D00F3206E /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
-		C4AA90C320322D5F00F3206E /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		C4AA90C620322D7400F3206E /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
-		C4AA90C920322D8E00F3206E /* Supporting Files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Supporting Files.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +140,47 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C42AD3CC20323465000DDF23 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C42AD3CD20323465000DDF23 /* AZTabBarButton.swift */,
+				C42AD3CE20323465000DDF23 /* AZTabBarButtonDelegate.swift */,
+				C42AD3CF20323465000DDF23 /* AZTabBarController.swift */,
+				C42AD3D020323465000DDF23 /* AZTabBarController.xib */,
+				C42AD3D120323465000DDF23 /* AZTabBarDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C42AD3E020323660000DDF23 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				C42AD3E120323660000DDF23 /* LogInButton.swift */,
+				C42AD3E220323660000DDF23 /* SignUpButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		C42AD3F320323D0A000DDF23 /* Authentification */ = {
+			isa = PBXGroup;
+			children = (
+				C42AD3F420323D0A000DDF23 /* AuthClient.swift */,
+				C42AD3F520323D0A000DDF23 /* AuthDelegate.swift */,
+			);
+			path = Authentification;
+			sourceTree = "<group>";
+		};
+		C42AD3F720323D0A000DDF23 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				C42AD3FB20323D0A000DDF23 /* DBService.swift */,
+				C42AD3F820323D0A000DDF23 /* DBService+Comment.swift */,
+				C42AD3F920323D0A000DDF23 /* DBService+Post.swift */,
+				C42AD3FA20323D0A000DDF23 /* DBService+User.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		C4AA909320322D0500F3206E = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +214,7 @@
 				C4AA90A620322D0500F3206E /* Assets.xcassets */,
 				C4AA90A820322D0500F3206E /* LaunchScreen.storyboard */,
 				C4AA90AB20322D0500F3206E /* Info.plist */,
+				C42AD3E82032397E000DDF23 /* GoogleService-Info.plist */,
 			);
 			path = FlashcardHW;
 			sourceTree = "<group>";
@@ -143,7 +231,9 @@
 		C4AA90BF20322D1300F3206E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C4AA90A120322D0500F3206E /* ViewController.swift */,
+				C42AD3C62032334B000DDF23 /* CustomTabBarVC.swift */,
+				C42AD3C52032334A000DDF23 /* LoginVC.swift */,
+				C42AD3C42032334A000DDF23 /* SignUpVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,7 +249,12 @@
 		C4AA90C520322D6300F3206E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C4AA90C320322D5F00F3206E /* View.swift */,
+				C42AD3E020323660000DDF23 /* Buttons */,
+				C42AD3DF20323660000DDF23 /* LogoView.swift */,
+				C42AD3DD20323626000DDF23 /* ViewFactory.swift */,
+				C42AD3DB20323609000DDF23 /* CallToActionView.swift */,
+				C42AD3D7203235BA000DDF23 /* LoginView.swift */,
+				C42AD3D8203235BA000DDF23 /* SignUpView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,7 +262,11 @@
 		C4AA90C820322D7C00F3206E /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				C4AA90C620322D7400F3206E /* Services.swift */,
+				C42AD3F320323D0A000DDF23 /* Authentification */,
+				C42AD3F720323D0A000DDF23 /* Database */,
+				C42AD3F620323D0A000DDF23 /* Router.swift */,
+				C42AD3FC20323D0B000DDF23 /* StorageService.swift */,
+				C42AD3F220323D0A000DDF23 /* StorageService+Image.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -175,7 +274,9 @@
 		C4AA90CB20322D9100F3206E /* Store */ = {
 			isa = PBXGroup;
 			children = (
-				C4AA90C920322D8E00F3206E /* Supporting Files.swift */,
+				C42AD3CC20323465000DDF23 /* Sources */,
+				C42AD3CA20323353000DDF23 /* Stylesheet.swift */,
+				C42AD3E6203236B7000DDF23 /* UIColor+Hex.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -271,6 +372,8 @@
 			files = (
 				C4AA90AA20322D0500F3206E /* LaunchScreen.storyboard in Resources */,
 				C4AA90A720322D0500F3206E /* Assets.xcassets in Resources */,
+				C42AD3E92032397E000DDF23 /* GoogleService-Info.plist in Resources */,
+				C42AD3D520323465000DDF23 /* AZTabBarController.xib in Resources */,
 				C4AA90A520322D0500F3206E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,12 +510,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4AA90C720322D7400F3206E /* Services.swift in Sources */,
-				C4AA90C420322D5F00F3206E /* View.swift in Sources */,
+				C42AD40020323D0B000DDF23 /* Router.swift in Sources */,
+				C42AD3D220323465000DDF23 /* AZTabBarButton.swift in Sources */,
+				C42AD3E420323660000DDF23 /* LogInButton.swift in Sources */,
+				C42AD3D320323465000DDF23 /* AZTabBarButtonDelegate.swift in Sources */,
+				C42AD3C92032334B000DDF23 /* CustomTabBarVC.swift in Sources */,
+				C42AD40320323D0B000DDF23 /* DBService+User.swift in Sources */,
+				C42AD3C72032334B000DDF23 /* SignUpVC.swift in Sources */,
+				C42AD40520323D0B000DDF23 /* StorageService.swift in Sources */,
+				C42AD3FF20323D0B000DDF23 /* AuthDelegate.swift in Sources */,
+				C42AD40220323D0B000DDF23 /* DBService+Post.swift in Sources */,
+				C42AD40420323D0B000DDF23 /* DBService.swift in Sources */,
+				C42AD3E520323660000DDF23 /* SignUpButton.swift in Sources */,
+				C42AD3E320323660000DDF23 /* LogoView.swift in Sources */,
+				C42AD3C82032334B000DDF23 /* LoginVC.swift in Sources */,
 				C4AA90C120322D2D00F3206E /* Flashcard.swift in Sources */,
-				C4AA90A220322D0500F3206E /* ViewController.swift in Sources */,
+				C42AD3DE20323626000DDF23 /* ViewFactory.swift in Sources */,
+				C42AD3DC20323609000DDF23 /* CallToActionView.swift in Sources */,
+				C42AD3FD20323D0B000DDF23 /* StorageService+Image.swift in Sources */,
+				C42AD3D420323465000DDF23 /* AZTabBarController.swift in Sources */,
 				C4AA90A020322D0500F3206E /* AppDelegate.swift in Sources */,
-				C4AA90CA20322D8E00F3206E /* Supporting Files.swift in Sources */,
+				C42AD3E7203236B7000DDF23 /* UIColor+Hex.swift in Sources */,
+				C42AD40120323D0B000DDF23 /* DBService+Comment.swift in Sources */,
+				C42AD3DA203235BA000DDF23 /* SignUpView.swift in Sources */,
+				C42AD3FE20323D0B000DDF23 /* AuthClient.swift in Sources */,
+				C42AD3D9203235BA000DDF23 /* LoginView.swift in Sources */,
+				C42AD3CB20323353000DDF23 /* Stylesheet.swift in Sources */,
+				C42AD3D620323465000DDF23 /* AZTabBarDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

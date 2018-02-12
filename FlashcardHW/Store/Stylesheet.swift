@@ -6,7 +6,7 @@
 //  Copyright © 2018 Masai Young. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 enum Stylesheet {
     
