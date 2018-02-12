@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4AA90A020322D0500F3206E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA909F20322D0500F3206E /* AppDelegate.swift */; };
+		C4AA90A220322D0500F3206E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA90A120322D0500F3206E /* ViewController.swift */; };
+		C4AA90A520322D0500F3206E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AA90A320322D0500F3206E /* Main.storyboard */; };
+		C4AA90A720322D0500F3206E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AA90A620322D0500F3206E /* Assets.xcassets */; };
+		C4AA90AA20322D0500F3206E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AA90A820322D0500F3206E /* LaunchScreen.storyboard */; };
+		C4AA90B520322D0500F3206E /* FlashcardHWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA90B420322D0500F3206E /* FlashcardHWTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4AA90B120322D0500F3206E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4AA909420322D0500F3206E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4AA909B20322D0500F3206E;
+			remoteInfo = FlashcardHW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4AA909C20322D0500F3206E /* FlashcardHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashcardHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AA909F20322D0500F3206E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4AA90A120322D0500F3206E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4AA90A420322D0500F3206E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4AA90A620322D0500F3206E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4AA90A920322D0500F3206E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4AA90AB20322D0500F3206E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4AA90B020322D0500F3206E /* FlashcardHWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardHWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AA90B420322D0500F3206E /* FlashcardHWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardHWTests.swift; sourceTree = "<group>"; };
+		C4AA90B620322D0500F3206E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4AA909920322D0500F3206E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AA90AD20322D0500F3206E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4AA909320322D0500F3206E = {
+			isa = PBXGroup;
+			children = (
+				C4AA909E20322D0500F3206E /* FlashcardHW */,
+				C4AA90B320322D0500F3206E /* FlashcardHWTests */,
+				C4AA909D20322D0500F3206E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4AA909D20322D0500F3206E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA909C20322D0500F3206E /* FlashcardHW.app */,
+				C4AA90B020322D0500F3206E /* FlashcardHWTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4AA909E20322D0500F3206E /* FlashcardHW */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA909F20322D0500F3206E /* AppDelegate.swift */,
+				C4AA90A120322D0500F3206E /* ViewController.swift */,
+				C4AA90A320322D0500F3206E /* Main.storyboard */,
+				C4AA90A620322D0500F3206E /* Assets.xcassets */,
+				C4AA90A820322D0500F3206E /* LaunchScreen.storyboard */,
+				C4AA90AB20322D0500F3206E /* Info.plist */,
+			);
+			path = FlashcardHW;
+			sourceTree = "<group>";
+		};
+		C4AA90B320322D0500F3206E /* FlashcardHWTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA90B420322D0500F3206E /* FlashcardHWTests.swift */,
+				C4AA90B620322D0500F3206E /* Info.plist */,
+			);
+			path = FlashcardHWTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4AA909B20322D0500F3206E /* FlashcardHW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4AA90B920322D0500F3206E /* Build configuration list for PBXNativeTarget "FlashcardHW" */;
+			buildPhases = (
+				C4AA909820322D0500F3206E /* Sources */,
+				C4AA909920322D0500F3206E /* Frameworks */,
+				C4AA909A20322D0500F3206E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashcardHW;
+			productName = FlashcardHW;
+			productReference = C4AA909C20322D0500F3206E /* FlashcardHW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4AA90AF20322D0500F3206E /* FlashcardHWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4AA90BC20322D0500F3206E /* Build configuration list for PBXNativeTarget "FlashcardHWTests" */;
+			buildPhases = (
+				C4AA90AC20322D0500F3206E /* Sources */,
+				C4AA90AD20322D0500F3206E /* Frameworks */,
+				C4AA90AE20322D0500F3206E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4AA90B220322D0500F3206E /* PBXTargetDependency */,
+			);
+			name = FlashcardHWTests;
+			productName = FlashcardHWTests;
+			productReference = C4AA90B020322D0500F3206E /* FlashcardHWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4AA909420322D0500F3206E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Masai Young";
+				TargetAttributes = {
+					C4AA909B20322D0500F3206E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C4AA90AF20322D0500F3206E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C4AA909B20322D0500F3206E;
+					};
+				};
+			};
+			buildConfigurationList = C4AA909720322D0500F3206E /* Build configuration list for PBXProject "FlashcardHW" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4AA909320322D0500F3206E;
+			productRefGroup = C4AA909D20322D0500F3206E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4AA909B20322D0500F3206E /* FlashcardHW */,
+				C4AA90AF20322D0500F3206E /* FlashcardHWTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4AA909A20322D0500F3206E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AA90AA20322D0500F3206E /* LaunchScreen.storyboard in Resources */,
+				C4AA90A720322D0500F3206E /* Assets.xcassets in Resources */,
+				C4AA90A520322D0500F3206E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AA90AE20322D0500F3206E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4AA909820322D0500F3206E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AA90A220322D0500F3206E /* ViewController.swift in Sources */,
+				C4AA90A020322D0500F3206E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AA90AC20322D0500F3206E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AA90B520322D0500F3206E /* FlashcardHWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4AA90B220322D0500F3206E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4AA909B20322D0500F3206E /* FlashcardHW */;
+			targetProxy = C4AA90B120322D0500F3206E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4AA90A320322D0500F3206E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4AA90A420322D0500F3206E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4AA90A820322D0500F3206E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4AA90A920322D0500F3206E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4AA90B720322D0500F3206E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4AA90B820322D0500F3206E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4AA90BA20322D0500F3206E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RBE99A2Y96;
+				INFOPLIST_FILE = FlashcardHW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDoom.FlashcardHW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4AA90BB20322D0500F3206E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RBE99A2Y96;
+				INFOPLIST_FILE = FlashcardHW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDoom.FlashcardHW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4AA90BD20322D0500F3206E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RBE99A2Y96;
+				INFOPLIST_FILE = FlashcardHWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDoom.FlashcardHWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashcardHW.app/FlashcardHW";
+			};
+			name = Debug;
+		};
+		C4AA90BE20322D0500F3206E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RBE99A2Y96;
+				INFOPLIST_FILE = FlashcardHWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DrDoom.FlashcardHWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashcardHW.app/FlashcardHW";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4AA909720322D0500F3206E /* Build configuration list for PBXProject "FlashcardHW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AA90B720322D0500F3206E /* Debug */,
+				C4AA90B820322D0500F3206E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4AA90B920322D0500F3206E /* Build configuration list for PBXNativeTarget "FlashcardHW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AA90BA20322D0500F3206E /* Debug */,
+				C4AA90BB20322D0500F3206E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4AA90BC20322D0500F3206E /* Build configuration list for PBXNativeTarget "FlashcardHWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AA90BD20322D0500F3206E /* Debug */,
+				C4AA90BE20322D0500F3206E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4AA909420322D0500F3206E /* Project object */;
+}
