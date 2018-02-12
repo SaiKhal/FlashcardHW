@@ -41,6 +41,8 @@
 		C4AA90AA20322D0500F3206E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AA90A820322D0500F3206E /* LaunchScreen.storyboard */; };
 		C4AA90B520322D0500F3206E /* FlashcardHWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA90B420322D0500F3206E /* FlashcardHWTests.swift */; };
 		C4AA90C120322D2D00F3206E /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA90C020322D2D00F3206E /* Flashcard.swift */; };
+		C4B69CF420324CFC00FAE849 /* CardVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B69CF320324CFC00FAE849 /* CardVCTests.swift */; };
+		C4B79B7220324C0D00C9EDFC /* CardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B79B7120324C0D00C9EDFC /* CardVC.swift */; };
 		F0F394EEB336ED7B2A64E154 /* Pods_FlashcardHW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C140670A0BA74FCCE8521D96 /* Pods_FlashcardHW.framework */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +100,8 @@
 		C4AA90B420322D0500F3206E /* FlashcardHWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardHWTests.swift; sourceTree = "<group>"; };
 		C4AA90B620322D0500F3206E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4AA90C020322D2D00F3206E /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
+		C4B69CF320324CFC00FAE849 /* CardVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardVCTests.swift; sourceTree = "<group>"; };
+		C4B79B7120324C0D00C9EDFC /* CardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				C4AA90B420322D0500F3206E /* FlashcardHWTests.swift */,
+				C4B69CF320324CFC00FAE849 /* CardVCTests.swift */,
 				C4AA90B620322D0500F3206E /* Info.plist */,
 			);
 			path = FlashcardHWTests;
@@ -234,6 +239,7 @@
 				C42AD3C62032334B000DDF23 /* CustomTabBarVC.swift */,
 				C42AD3C52032334A000DDF23 /* LoginVC.swift */,
 				C42AD3C42032334A000DDF23 /* SignUpVC.swift */,
+				C4B79B7120324C0D00C9EDFC /* CardVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -264,9 +270,8 @@
 			children = (
 				C42AD3F320323D0A000DDF23 /* Authentification */,
 				C42AD3F720323D0A000DDF23 /* Database */,
+				C4B79B7020324BCF00C9EDFC /* Storage */,
 				C42AD3F620323D0A000DDF23 /* Router.swift */,
-				C42AD3FC20323D0B000DDF23 /* StorageService.swift */,
-				C42AD3F220323D0A000DDF23 /* StorageService+Image.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -279,6 +284,15 @@
 				C42AD3E6203236B7000DDF23 /* UIColor+Hex.swift */,
 			);
 			path = Store;
+			sourceTree = "<group>";
+		};
+		C4B79B7020324BCF00C9EDFC /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				C42AD3FC20323D0B000DDF23 /* StorageService.swift */,
+				C42AD3F220323D0A000DDF23 /* StorageService+Image.swift */,
+			);
+			path = Storage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -528,6 +542,7 @@
 				C42AD3DE20323626000DDF23 /* ViewFactory.swift in Sources */,
 				C42AD3DC20323609000DDF23 /* CallToActionView.swift in Sources */,
 				C42AD3FD20323D0B000DDF23 /* StorageService+Image.swift in Sources */,
+				C4B79B7220324C0D00C9EDFC /* CardVC.swift in Sources */,
 				C42AD3D420323465000DDF23 /* AZTabBarController.swift in Sources */,
 				C4AA90A020322D0500F3206E /* AppDelegate.swift in Sources */,
 				C42AD3E7203236B7000DDF23 /* UIColor+Hex.swift in Sources */,
@@ -544,6 +559,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B69CF420324CFC00FAE849 /* CardVCTests.swift in Sources */,
 				C4AA90B520322D0500F3206E /* FlashcardHWTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
